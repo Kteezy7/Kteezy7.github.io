@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Kshitiz Portfolio Website</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+            integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <link
+            href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+            rel="stylesheet"
+        />
+
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
+        />
+
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <header>
+            <div class="header__wrapper">
+                <div class="logo">
+                    <h2>&lt;Kteezy&gt;</h2>
+                </div>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About me</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#work" class="nav__link">My Work</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Kshitiz Chaudhary</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">
+                Front-End Dev
+            </p>
+            <img src="img/DP1.jpg" alt="" class="intro__img" />
+        </section>
+
+        <!-- About me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Developer</p>
+            <div class="about-me__body">
+                <p>
+                    I am a Computer Science graduate looking to expand my views
+                    and experience as a developer. I rejoice in building
+                    responsive web apps using modern technologies. I'm committed
+                    to leverage my skills and use it to build quality web apps.
+                </p>
+            </div>
+        </section>
+
+        <section class="skills">
+            <div class="skill skill-1">
+                <i class="fab fa-html5 fa-5x"></i>
+                <h4>HTML</h4>
+            </div>
+
+            <div class="skill skill-2">
+                <i class="fab fa-css3-alt fa-5x"></i>
+                <h4>CSS</h4>
+            </div>
+
+            <div class="skill skill-3">
+                <i class="fab fa-js-square fa-5x"></i>
+                <h4>Javascript</h4>
+            </div>
+
+            <div class="skill skill-4">
+                <i class="fab fa-react fa-5x"></i>
+                <h4>React</h4>
+            </div>
+
+            <div class="skill skill-5">
+                <i class="fab fa-git-alt fa-5x"></i>
+                <h4>Git</h4>
+            </div>
+
+            <div class="skill skill-6">
+                <i class="devicon-cplusplus-plain"></i>
+                <h4>C++</h4>
+            </div>
+        </section>
+
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My Work</h2>
+            <p class="section__subtitle section__subtitle--work">
+                A selection of my range of work
+            </p>
+
+            <div class="portfolio">
+                <!-- Portfolio image 01 -->
+                <div class="hoverwrap">
+                    <img
+                        src="img/lyric-finder.jpg"
+                        alt=""
+                        class="portfolio__img"
+                    />
+                    <div class="hovercap">
+                        <p>React/Musixmatch API/Bootstrap</p>
+                        <h2>Lyric Finder</h2>
+                        <a
+                            target="_blank"
+                            class="portfolio__link"
+                            href="https://github.com/Kteezy7/lyric-finder"
+                        >
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Portfolio image 02 -->
+                <div class="hoverwrap">
+                    <img
+                        src="img/expense-tracker.jpg"
+                        alt=""
+                        class="portfolio__img"
+                    />
+                    <div class="hovercap">
+                        <p>React/Context API</p>
+                        <h2>Expense Tracker</h2>
+                        <a
+                            target="_blank"
+                            class="portfolio__link"
+                            href="https://github.com/Kteezy7/expense-tracker-react"
+                        >
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Portfolio image 03 -->
+                <div class="hoverwrap">
+                    <img src="img/todo.jpg" alt="" class="portfolio__img" />
+                    <div class="hovercap">
+                        <p>HTML/CSS/Javascript</p>
+                        <h2>Todo List</h2>
+                        <a
+                            target="_blank"
+                            class="portfolio__link"
+                            href="https://github.com/Kteezy7/Todo-Proj"
+                        >
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Portfolio image 04 -->
+                <div class="hoverwrap">
+                    <img src="img/music.jpg" alt="" class="portfolio__img" />
+                    <div class="hovercap">
+                        <p>HTML/CSS/Javascript</p>
+                        <h2>Music Player</h2>
+                        <a
+                            target="_blank"
+                            class="portfolio__link"
+                            href="https://github.com/Kteezy7/music-player"
+                        >
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a
+                href="mailto:c.kshitiz07@gmail.com"
+                class="footer__link"
+                target="_blank"
+                >c.kshitiz07@gmail.com</a
+            >
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a
+                        class="social-list__link"
+                        href="https://www.linkedin.com/in/kteezy/"
+                        target="_blank"
+                    >
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a
+                        href="https://github.com/Kteezy7"
+                        class="social-list__link"
+                        target="_blank"
+                    >
+                        <i class="fab fa-github-square"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+    </body>
+</html>
